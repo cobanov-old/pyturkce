@@ -8,18 +8,18 @@
 
 Python package for Turkish Language.
 
--   Free software: MIT license
--   Documentation: <https://pyturkce.readthedocs.io>.
+- Free software: MIT license
+- Documentation: <https://pyturkce.readthedocs.io>.
 
 ## Features
 
--   TODO
--   Fiil, sifat, edat ayirma
--   Stop words (etkisiz kelimeleri ayirma)
--   random n sayida kelime getir
--   icinde, basinda veya sonunda belirli harfleri bulunan kelimeleri getir
--   kelimelerin icerdigi harf oranlarina gore hatali kelimeleri bulup duzelt
--   turkce kripto bolumleri ekle
+- TODO
+- Fiil, sifat, edat ayirma
+- Stop words (etkisiz kelimeleri ayirma)
+- random n sayida kelime getir
+- icinde, basinda veya sonunda belirli harfleri bulunan kelimeleri getir
+- kelimelerin icerdigi harf oranlarina gore hatali kelimeleri bulup duzelt
+- turkce kripto bolumleri ekle
 
 ## Credits
 
