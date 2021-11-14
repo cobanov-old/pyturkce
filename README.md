@@ -1,6 +1,7 @@
 # PyTurkce
 
-![image]()
+![image](assets/pyturkce-logo.png)
+
 ![image](https://img.shields.io/pypi/v/pyturkce.svg%0A%20%20%20%20%20:target:%20https://pypi.python.org/pypi/pyturkce)
 
 ![image](https://img.shields.io/travis/cobanov/pyturkce.svg%0A%20%20%20%20%20:target:%20https://travis-ci.com/cobanov/pyturkce)
