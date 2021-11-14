@@ -1,4 +1,4 @@
-![image](assets/pyturkce-logo.png)
+![image](https://github.com/cobanov/pyturkce/blob/master/assets/pyturkce-logo.png?raw=true)
 
 # PyTurkce
 
