@@ -3,15 +3,13 @@
 # PyTurkce
 
 ![image](https://img.shields.io/travis/cobanov/pyturkce.svg%0A%20%20%20%20%20:target:%20https://travis-ci.com/cobanov/pyturkce)
-
-![image](https://readthedocs.org/projects/pyturkce/badge/?version=latest%0A%20%20%20%20%20:target:%20https://pyturkce.readthedocs.io/en/latest/?version=latest%0A%20%20%20%20%20:alt:%20Documentation%20Status)
+![PyPI](https://img.shields.io/pypi/v/pyturkce)
+![PyPI - License](https://img.shields.io/pypi/l/pyturkce?color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/cobanov/pyturkce)
 
 Python package for Turkish Language.
 
-- Free software: MIT license
 - Documentation: <https://pyturkce.readthedocs.io>.
-
-## Introduction to PyTurkce
 
 ## Installation
 
