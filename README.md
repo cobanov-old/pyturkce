@@ -1,9 +1,9 @@
-![image](https://raw.githubusercontent.com/cobanov/pyturkce/master/assets/pyturkce-logo.png)
+[![image](https://raw.githubusercontent.com/cobanov/pyturkce/master/assets/pyturkce-logo.png)](https://pypi.org/project/pyturkce/)
 
 # PyTurkce
 
 ![image](https://img.shields.io/travis/cobanov/pyturkce.svg%0A%20%20%20%20%20:target:%20https://travis-ci.com/cobanov/pyturkce)
-![PyPI](https://img.shields.io/pypi/v/pyturkce)
+[![PyPI](https://img.shields.io/pypi/v/pyturkce)](https://pypi.org/project/pyturkce/)
 ![PyPI - License](https://img.shields.io/pypi/l/pyturkce?color=blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/cobanov/pyturkce)
 
