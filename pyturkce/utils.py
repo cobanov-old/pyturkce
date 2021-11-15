@@ -1,4 +1,5 @@
 import requests
+import pandas
 
 
 _URL = "https://sozluk.gov.tr/gts"
