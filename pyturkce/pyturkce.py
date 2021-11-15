@@ -2,6 +2,9 @@ from .utils import getData
 
 
 class Sozluk:
+    """TDK API kullanarak verilen kelimeler hakkinda JSON datasi dondurur, 
+    ayni zamanda anlam, deyim ve cumle ici ornekler getirir.
+    """
 
     def __init__(self, kelime):
         self.data = getData(kelime)
@@ -15,7 +18,7 @@ class Sozluk:
 
     #     return f"Anlam: {self.anlamlar[0]}\nOrnek: {self.ornekler[0]}\nAtasozu: {self.deyimler[0]}\nDaha fazla anlam ve ornek icin lutfen metodlari kullanin."
 
-    def getAnlamlar(self):  # Anlamlar
+    def getAnlamlar(self):
 
         self.anlamlar = [anlam['anlam']
                          for anlam in self.data[0]['anlamlarListe']]
@@ -35,3 +38,17 @@ class Sozluk:
         self.getAnlamlar()
         self.getDeyimler()
         self.getOrnekler()
+
+
+def tr2eng(text):
+    """Turkce karakterlere sahip metinleri ingilizce karakterler ile degistirir
+
+    Args:
+        text (string): Turkce karakterlere sahip metin
+
+    Returns:
+        string: Ingilizce karakterlere sahip cumleyi dondurur
+    """
+    eslestirici = str.maketrans("çğıöşüÇĞİÖŞÜ", "cgiosuCGIOSU")
+    sonuc = text.translate(eslestirici)
+    return sonuc
