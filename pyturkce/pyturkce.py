@@ -24,15 +24,20 @@ class Sozluk:
                          for anlam in self.data[0]['anlamlarListe']]
 
     def getDeyimler(self):  # Deyimler
-
-        self.deyimler = [anlam['madde']
-                         for anlam in self.data[0]['atasozu']]
+        try:
+            self.deyimler = [anlam['madde']
+                             for anlam in self.data[0]['atasozu']]
+        except KeyError:
+            self.deyimler = 'Bu kelime icin atasozu bulunamadi!'
 
     def getOrnekler(self):    # Ornekler
         self.ornekler = []
-        for anlam in self.data[0]['anlamlarListe']:
-            for ornek in anlam['orneklerListe']:
-                self.ornekler.append(ornek['ornek'])
+        try:
+            for anlam in self.data[0]['anlamlarListe']:
+                for ornek in anlam['orneklerListe']:
+                    self.ornekler.append(ornek['ornek'])
+        except KeyError:
+            self.ornekler = 'Bu kelime icin ornek cumle bulunamadi!'
 
     def parseData(self):
         self.getAnlamlar()
